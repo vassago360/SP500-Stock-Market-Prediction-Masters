@@ -1,0 +1,12 @@
+fairness,discrimination
+equality,discrimination
+healthy,unhealthy
+safe,unsafe
+privilege,handicap
+advantage,disadvantage
+right,disadvantage
+just,unjust
+equality,inequality
+justice,injustice
+honesty,corruption
+abuse,kindness

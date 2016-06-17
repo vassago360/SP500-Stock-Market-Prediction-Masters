@@ -1,0 +1,16 @@
+promotion,deprecation
+employment,unemployment
+hired,dismissed
+encouragement,discouragement
+breakthrough,setback
+success,failure
+efficient,inefficient
+competent,incompetent
+skilled,unskilled
+risk,safe
+rich,poor
+powerful,powerless
+win,lose
+ambitious,lethargic
+aggressive,laid-back
+benefits,loss

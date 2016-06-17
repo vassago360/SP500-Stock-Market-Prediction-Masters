@@ -1,0 +1,8 @@
+education,ignorance
+teach,conceal
+public,private
+free,debt
+profit,nonprofit
+leaders,followers
+teach,learn
+guidance,self

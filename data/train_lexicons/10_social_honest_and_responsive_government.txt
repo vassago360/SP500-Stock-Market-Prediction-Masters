@@ -1,0 +1,14 @@
+health,illness
+maintenance,destruction
+improvement,failure
+treatment,injury
+prevention,assistance
+corporate,individual
+runaway,stable
+surpass,behind
+expectation,doubt
+earnings,debt
+foreign,local
+decline,rose
+drug,natural
+cutback,increase

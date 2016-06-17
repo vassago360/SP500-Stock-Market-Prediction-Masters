@@ -1,0 +1,14 @@
+war,peace
+conflict,truce
+battle,accord
+agree,disagree
+agreement,disagreement
+clash,harmony
+fight,calm
+attack,ceasefire
+impotence,freedom
+prohibition,liberty
+spending,saving
+take,invest
+prune,include
+violence,calm
