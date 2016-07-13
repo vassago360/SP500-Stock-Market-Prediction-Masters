@@ -19,13 +19,15 @@ Steps to follow to run the project:
 
 2) Run "get_stock_data.py" which outputs "daily_price_changes.csv" which provides the prediction labels.  It also outputs "moving_average_stock_data.csv" which is the simple moving average indicator data that serves as one of the baseline predictors.
 
-3) Run "create_continuous_text_file.py" which generates "tweets_text.txt" from the collected tweets.
+3) Run "get_twitter_data.py" to collect more twitter data.  Note:  You need to add your twitter api credentials on line 9.  Go to dev.twitter.com to sign up for an account.
 
-4) Run "word2vec_optimized_mod_obj.py" to output "seman_oreint_dict.p" the SO scores for every word in the vocabulary.  This file is a modification of tensorflow's word2vec implementation ( https://github.com/tensorflow/ ).  Lines 203-207 changes which lexicon to train on. 
+4) Run "create_continuous_text_file.py" which generates "tweets_text.txt" from the collected tweets.
 
-5) Run "gen_dataset_n_predicate_n_eval.py" which generates the dataset, makes a predication, and evaluates results.
+5) Run "word2vec_optimized_mod_obj.py" to output "seman_oreint_dict.p" the SO scores for every word in the vocabulary.  This file is a modification of tensorflow's word2vec implementation ( https://github.com/tensorflow/ ).  Lines 203-207 changes which lexicon to train on. 
 
-6) Optional: Run "get_twitter_data.py" to collect more twitter data.
+6) Run "gen_dataset_n_predicate_n_eval.py" which generates the dataset, makes a predication, and evaluates results.
+
+7) Optional: Run "get_twitter_data.py" to collect more twitter data.
 
 
 TODO: Include previous version from my project in Manfred's advanced machine learning class that used used a SGD LR predictor regularized by "sleeping".

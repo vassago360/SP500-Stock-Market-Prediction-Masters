@@ -1,13 +1,17 @@
-# s-p500-stock-market-prediction
+# SP500-Stock-Market-Prediction Algorithm
 
-I developed a S&P 500 stock prediction program for my Master's Project.  Read "MastersProjectReportNoSignatures.pdf" to discover my approach.
+This project predicts the daily price return of the S&P 500 based on tweets about the index.  It was used for my Master's Project.  Read "MastersProjectReportNoSignatures.pdf" to discover my approach to this problem.
 
-Prerequites:
+
+
+Prerequisites:
 
 Python 2.x, Pandas, Numpy, NLTK, Scikit-Learn. I suggest installing Anaconda ( https://www.continuum.io/downloads ) which has all those libraries in one package.
 TensorFlow ( https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html )
 
-Perform the following steps to run the project:
+
+
+Steps to follow to run the project:
 
 1) Clone or download the repository.
 
