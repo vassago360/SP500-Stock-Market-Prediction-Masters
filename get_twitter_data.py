@@ -6,9 +6,7 @@ import pandas as pd
 def _twttr_call(return_dict, api, api_func, args):
     # consumer_key , consumer_secret , access_token_key , access_token_secret
     accounts = []
-    accounts.append( ['vtxeKRdnnZViFMLdPQ6Wn8g4a','qtRHVAC6vu4D3DX3ZLlnNxsYNvWUplgSbMwoq1F4ekqswhDNqr','572824457-rUpwiWuv0RJCZgBBiSZYoRCDLhCjNgtmjQcQW0mG','wQepR6Hdi3DN3nKtXCiAvk3Kj9pKrR53aZWtBdttioMVN'] )
-    accounts.append( ['GT4qPbnixWRSUcKS1VdoDtuU6', 'yjEfJDbEYj16v31OzyvZLvPRzkjAT4AKdBMpCnhU05joTqsMLs', '572824457-2pqYz4P91V0FROENm4RrB1IVselD5WRPOEuHchIU', 'KItjNr1dOgRKLugFaYqheAgBpOMcnLjrif7GCZCDZAlsH'] )
-    accounts.append( ['SrhvxVuuiB42AG6uuowU8HUDJ', 'nIDqCJek6tpquO8fmo6wqkgojY6gCPtL6lFPQqeNOFBYJT3jSz', '4878561863-e68PDfuGATWbLHn0E0XZsQB286cEzZUOzJMq577', 'D20Tj8azLfco0p5HBDKEre8ffYCSxHurWccAuEGh3fwgC'] )
+    accounts.append( ['consumer_key','consumer_secret','access_token_key','access_token_secret'] )
     # first pass (use same credentials)
     try:
         return_dict["_twttr_call"] = api_func(**args)
